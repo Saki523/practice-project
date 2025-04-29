@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <script src="https://kit.fontawesome.com/cafdd30290.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body class="bg-gray-100">
+    <nav class="bg-white shadow-md p-4  ">
+        <div class=" mx-auto flex justify-around items-center h-20">
+            <div class="text-2xl font-bold text-blue-600">LUYTEN<span class=" text-sm">Ⓡ</span></div>
+            <div class="relative inline-block text-left">
+                <!-- Hidden toggle -->
+                <input type="checkbox" id="lang-toggle" class="peer hidden" />
+
+                <!-- Dropdown Button -->
+                <label for="lang-toggle"
+                    class="flex items-center justify-between w-30 px-4 py-2 bg-white border border-gray-300 rounded-md cursor-pointer shadow-sm hover:bg-gray-50 transition">
+                    <span class="text-sm text-gray-700">Language</span>
+
+                    <!-- Down arrow (visible when not checked) -->
+                    <svg class="ml-2 h-5 w-5 text-gray-600 transition-transform duration-300 peer-checked:hidden"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+
+                    <!-- Up arrow (visible when checked) -->
+                    <svg class="ml-2 h-5 w-5 text-gray-600 hidden peer-checked:inline-block transition-transform duration-300"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+                    </svg>
+                </label>
+
+                <!-- Dropdown Menu -->
+                <div
+                    class="peer-checked:visible peer-checked:opacity-100 peer-checked:scale-100 opacity-0 scale-95 invisible transition-all duration-300 absolute z-10 mt-2 w-48 bg-white border border-gray-200 rounded-md shadow-md">
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">English</a>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">বাংলা</a>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Español</a>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto flex justify-center items-center">
+            <ul class="hidden md:flex space-x-7 text-blue-500 font-medium">
+                <li><a href="#" class="text-gray-500">Home</a></li>
+                <li><a href="#" class="hover:text-gray-500">Our Printer</a></li>
+                <li><a href="#" class="hover:text-gray-500">SILO MIXING PUMP SYSTEM</a></li>
+                <li><a href="#" class="hover:text-gray-500">LUYTEN PROJECTS</a></li>
+                <li><a href="#" class="hover:text-gray-500">LOCATIONS</a></li>
+                <li><a href="#" class="hover:text-gray-500">NEWS/MEDIA</a></li>
+                <li><a href="#" class="hover:text-gray-500">MORE</a></li>
+            </ul>
+
+        </div>
+    </nav>
+</body>
+<main>
+
+    <div class="fixed items-center justify-center pt-[20vh] left-4 z-50">
+        <div class="flex flex-col space-y-4">
+            <!-- Icon 1 -->
+            <a href="#" class="text-3xl text-gray-300 hover:text-blue-800">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <!-- Icon 2 -->
+            <a href="#" class="text-3xl text-gray-300 ">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <!-- Icon 3 -->
+            <a href="#" class="text-3xl text-gray-300 ">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#" class="text-3xl text-gray-300 ">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <!-- Icon 2 -->
+            <a href="#" class="text-3xl text-gray-300 hover:text-green-800">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <!-- Icon 3 -->
+            <a href="#" class="text-3xl text-gray-300 hover:text-red-800">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div>
+    </div>
+    <div class="relative w-full h-[30vh] md:h-[50vh] lg:h-[90vh]">
+        <img src="../assets/image/construction.jpg" alt="Banner" class="w-full h-full object-cover" />
+
+        <div class="absolute inset-0 flex items-center bg-black/40 pl-20 lg:pl-[50vh] sm:pl-20">
+            <h1 class="text-white text-xl md:text-4xl font-bold ">
+                CONSTRUCTION 3D PRINTERS
+                <div class=" h-[10px] bg-white mx-auto mr-50"></div>
+            </h1>
+
+        </div>
+
+        <div
+            class="absolute bottom-4 left-1/2 transform -translate-x-1/2  px-4 py-2 text-white text-sm font-bold rounded">
+            SCROLL FOR EQUIPMENT AND PROJECTS
+        </div>
+    </div>
+    <div class="inline-block text-center">
+        <p class="text-xl font-semibold">Custom Underline</p>
+        <div class="w-24 h-[2px] bg-blue-500 mx-auto mr-15"></div>
+    </div>
+    <div class="">
+        <p class="text-xl font-semibold">Custom Underline</p>
+        <div class="w-50 h-[2px] bg-blue-500 mx-auto pl-"></div>
+    </div>
+
+</main>
+
+</html>
